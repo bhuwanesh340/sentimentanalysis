@@ -56,7 +56,8 @@ def main_function(review_word):
 
 	# In[2]:
 
-	data=pd.read_csv('G:\\NU MATERIAL\\NU-TERM2\\BIG_DATA\\PROJECT\\hotel-reviews\\7282_1.csv')
+	#data=pd.read_csv('G:\\NU MATERIAL\\NU-TERM2\\BIG_DATA\\PROJECT\\hotel-reviews\\7282_1.csv')
+	data=pd.read_csv('7282_2.csv')
 	#data=pd.read_csv('/media/bhuwanesh-ug1-3317/NIIT/NU MATERIAL/NU-TERM2/BIG_DATA/PROJECT/hotel-reviews/7282_1.csv')
 
 
