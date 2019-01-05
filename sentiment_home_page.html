@@ -1,0 +1,21 @@
+    <!DOCTYPE html>
+    <html>
+      <body>
+       <div class="product">
+         <h1>SENTIMENT ANALYSIS APP</h1>
+         <p>ONLY APP WHICH CAN GIVE ACCURATE SENTIMENT OF THE REVIEWS</p>
+       </div>
+    {% extends "sentiment_layout.html" %}
+    {% block content %}
+      <div class="product">
+        <h1>ENTER THE REVIEW</h1>
+			
+			<form method="POST">
+				<input name="review">
+				<input type="submit">
+			</form>
+      </div>
+    {% endblock %}  
+	
+  </body>
+    </html>

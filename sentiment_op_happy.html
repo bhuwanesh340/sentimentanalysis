@@ -1,0 +1,21 @@
+    <!DOCTYPE html>
+    <html>
+      <body>
+       <div class="product">
+         <h1>SENTIMENT ANALYSIS APP</h1>
+         <p>ONLY APP WHICH CAN GIVE ACCURATE SENTIMENT OF THE REVIEWS</p>
+       </div>
+    {% extends "sentiment_layout.html" %}
+    {% block content %}
+      <div class="product">
+        <h1>SENTIMENT OF REVIEW</h1>
+		 <p> Sentiment of the review is : {{ review_op }} !! </p>
+		  <img style="width: 313px; height: 220px;" alt="Html Icon" src="/static/happy.jpeg">
+			<a href="/" target="_blank">
+			<button>CHECK FOR ANOTHER REVIEW</button>
+			</a>
+      </div>
+    {% endblock %}  
+	
+		</body>
+    </html>
